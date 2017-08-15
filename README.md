@@ -4,8 +4,7 @@ Description:
 Indian Language Converter is a tool to convert latin/roman (english
 letters) to Indic scripts.  Additionally, it also prints out the HTML
 values of the transliterated script if you need to use them directly
-in your website (as is done by this website --
-http://www.iit.edu/~laksvij/language/)
+in your website.
 
 Installation:
 ============
@@ -31,7 +30,7 @@ comes with ABSOLUTELY NO WARRANTY.  I can tell you that it is safe and
 you are welcome to look at the source.  I do not make any
 ``dangerous'' system calls etc.  (Actually, I don't know even know how
 to write that kind of code) but nonetheless, this program comes with
-NO WARRANTY.  Use at your own risk.  
+NO WARRANTY.  Use at your own risk.
 
 If all those messages scare you, you're probably better off using the
 original site.
@@ -49,13 +48,11 @@ shall make a walk through making this exact change in telugu.
 
 In the file, there will be some place which says
 
-> "ch" :  "&#3098;",
+    "ch" :  "&#3098;",
 
 change this to
 
-< "c" :  "&#3098;",
-
-Note that the < and > aren't actually in the file.
+    "c" :  "&#3098;",
 
 Next, you must change the consonants variable to reflect this change.
 (If you changed a vowel, you must change the vowels variable.)  I
